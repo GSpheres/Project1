@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .navbar {
+    background-color: #4b68a1aa;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    color: #fff;
+  }
+ 
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+ 
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .navbar-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+ 
+  .navbar-link:hover {
+    background-color: #a6a59d9a;
+    color: #1e90ff;
+  }
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+   
+    .navbar-links {
+      margin-top: 20px;
+    }
+   
+    .navbar-link {
+      margin-right: 0;
+      margin-bottom: 10px;
+      padding: 8px 12px;
+    }
+  }
+  body {
+  background-image: url("img/roblox1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+.form-container {
+width: 300px;
+padding: 20px;
+margin: 130px auto;
+background-color: #ffffffaf;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-title {
+text-align: center;
+font-size: 15px;
+margin-bottom: 20px;
+}
+
+
+.form-input {
+margin-bottom: 15px;
+}
+
+
+.form-input label {
+display: block;
+margin-bottom: 5px;
+}
+
+
+.form-input input,
+.form-input select {
+width: 94%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+
+.birthday-input {
+display: flex;
+justify-content: space-between;
+}
+
+
+.birthday-input select {
+flex: 1;
+margin-right: 5px;
+}
+
+
+.form-actions {
+text-align: center;
+}
+
+
+.form-actions button {
+padding: 8px 16px;
+border: none;
+border-radius: 4px;
+width: 260px ;
+height: 40px;
+background-color: #4b67a1;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+
+.form-actions button[type="reset"] {
+background-color: #ccc;
+}
+
+
+.form-actions button:hover {
+background-color: #304b87;
+}
+
+
+.form-message {
+text-align: center;
+margin-top: 10px;
+}
+
+
+.form-message a {
+color: #4b67a1;
+text-decoration: none;
+}
+
+
+.form-message a:hover {
+text-decoration: underline;
+}
+
+
+.hide {
+display: none;
+}
+.section {
+ 
+    background-color: #807e7eaf;
+    padding: 32px;
+    border: 11px solid #37333385;
+    border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(252, 251, 251, 0.929);
+}
+.section h1 {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 16px;
+}
+
+
+.section p {
+  border-inline: 1px solid #000000;
+  color: #fff;
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 16px;
+}
+  .footer {
+    text-align: center;
+    margin-top: 32px;
+  }
+
+
+  .footer-link {
+    color: #c4b74b;
+    text-decoration: none;
+  }
+
+
+  .hide {
+    display: none;
+  }

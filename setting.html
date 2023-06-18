@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Settings</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/setting.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <a  class="navbar-brand">
+      <li><a href="BoardGsphere.html">Home</a></li>
+      <li><a href="#account">Account</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#notifications">Notifications</a></li>
+      <li><a href="#security">Security</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="account">
+      <h2>Account Settings</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+
+        <button type="submit">Save Changes</button>
+      </form>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy Settings</h2>
+      <div class="switch-container">
+        <label for="allowFriendRequests" class="switch-label">
+          Allow Friend Requests
+          <input type="checkbox" id="allowFriendRequests" name="allowFriendRequests" class="switch-input">
+          <span class="switch-slider"></span>
+        </label>
+        
+        <label for="hideOnlineStatus" class="switch-label">
+          Hide Online Status
+          <input type="checkbox" id="hideOnlineStatus" name="hideOnlineStatus" class="switch-input">
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <section id="notifications">
+      <h2>Notification Settings</h2>
+      <div class="switch-container">
+        <label for="emailNotifications" class="switch-label">
+          Receive Email Notifications
+          <input type="checkbox" id="emailNotifications" name="emailNotifications" class="switch-input">
+          <span class="switch-slider"></span>
+        </label>
+
+        <label for="pushNotifications" class="switch-label">
+          Receive Push Notifications
+          <input type="checkbox" id="pushNotifications" name="pushNotifications" class="switch-input">
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <section id="security">
+      <h2>Security Settings</h2>
+      <form>
+        <label for="currentPassword">Current Password:</label>
+        <input type="password" id="currentPassword" name="currentPassword" placeholder="Enter your current password">
+        
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" name="newPassword" placeholder="Enter your new password">
+        
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your new password">
+
+        <button type="submit">Save Changes</button>
+      </form>
+    </section>
+  </main>
+<br>
+<br>
+  <footer>
+    <p>&copy; 2023 Roblox Corporation. All rights reserved.</p>
+  </footer>
+
+  <script src="./javascript/setting.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>DashBoard</title>
+  <link rel="stylesheet" href="./css/HomeGsphere.css"
+</head>
+<body>
+  <nav class="navbar" href="#home">
+    <a  class="navbar-brand">
+      <i class='bx bx-game'></i>
+      GameSphere
+      </a>
+      
+    <ul class="navbar-links">
+      <li><a href="#home" class="navbar-link">Home</a></li>
+      <li><a href="#games" class="navbar-link">Games</a></li>
+      <li><a href="#news" class="navbar-link">News</a></li>
+    <li><a class="navbar-link" onclick="teleportToHTML('LoginSignUp.html')">Log In</a></li>
+    </ul>
+  </nav>
+  
+  <header id="home">
+    <div class="overlay"></div>
+    <div class="header-content">
+      <h1>Welcome To GameSphere!</h1>
+      <p>Dive Into The GameSphere To Unleash Your Secret Player!</p>
+    </div>
+  </header>
+  
+  <main id="games">
+    <h2 id="featuredgames">Fighting & Battle</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="game-thumbnail">
+          <img src="img/Fruits.png" alt="Game 1">
+          <h3>Breakout</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/BedWars.png" alt="Game 2">
+          <h3>BedWars</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/king.png" alt="Game 3">
+          <h3>Pong</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/hero.png" alt="Game 4">
+          <h3>The Strongest Battlegrounds</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/vs.png" alt="Game 5">
+          <h3>2048</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/beta.png" alt="Game 6">
+          <h3>Boxing</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <main>
+    <h2 id="featuredgames">Real World Roleplay</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="game-thumbnail">
+          <img src="img/chromedino.png" alt="Game 1">
+          <h3>Minesweeper</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/memorygame.png" alt="Game 2">
+          <h3>Memory Game</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/soon.png" alt="Game 3">
+          <h3>Connect 4</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/soon.png" alt="Game 4">
+          <h3>Game 4</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/soon.png" alt="Game 5">
+          <h3>Tic Tac Toe</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+        
+        <div class="game-thumbnail">
+          <img src="img/soon.png" alt="Game 6">
+          <h3>Game 6</h3>
+          <a class="play-button" onclick="teleportToHTML('LoginSignUp.html')">Sign Up To Play</a>
+        </div>
+      </div>
+    </div>
+    </main>
+    
+    <main id="games">
+      <h2 id="featuredgames">gaming News</h2>
+    <div class="container" id="news"> 
+      <div class="article">
+        <h2>The Rise of Esports</h2>
+        <p>Esports, or electronic sports, is a form of competitive video gaming that has seen tremendous growth in recent years. With millions of viewers and lucrative prize pools, esports has become a global phenomenon.</p>
+        <p>Top esports titles include games like Dota 2, League of Legends, Counter-Strike: Global Offensive, and Fortnite. These games have spawned professional leagues and tournaments that attract players from all around the world.</p>
+        <p>Esports athletes, often called pro gamers, dedicate countless hours to honing their skills and competing at the highest level. They are celebrities in their own right, with sponsorships, fan bases, and the opportunity to earn a living through gaming.</p>
+        <p class="author">By John Doe</p>
+      </div>
+  
+      <div class="news">
+        <h2>Latest Gaming News</h2>
+  
+        <div class="news-container">
+          <div class="news-card">
+            <img src="./img/king.png" alt="Game Image">
+            <h3 class="title">New Game Release: "Cyberverse"</h3>
+            <p class="source">Source: GameSpot</p>
+          </div>
+  
+          <div class="news-card">
+            <img src="./img/hero.png" alt="Game Image">
+            <h3 class="title">Upcoming Esports Tournament: "The International 2023"</h3>
+            <p class="source">Source: ESPN</p>
+          </div>
+  
+          <div class="news-card">
+            <img src="./img/bedwars.png" alt="Game Image">
+            <h3 class="title">Game Developer Conference 2023 Announced</h3>
+            <p class="source">Source: Gamasutra</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <br>
+    <br>
+    
+    <div class="section">
+      <footer>
+        <p>&copy; 2023 GameSphere Corporation. All rights reserved, the GameSphere logo and Powering Imagination are among our registered and unregistered trademarks in the U.S. and other countries. | <a href="#" class="footer-link">Privacy Policy</a></p>
+      </footer>
+    </div>
+    
+    <script src="javascript/HomeGsphere.js">
+        
+      </script>
+      
+    
+</body>
+</html>
+
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gaming News</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .article {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .article h2 {
+      color: #333;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .article p {
+      margin-bottom: 10px;
+    }
+
+    .article .author {
+      color: #777;
+      font-style: italic;
+    }
+
+    .news {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow-x: auto;
+    }
+
+    .news::-webkit-scrollbar {
+      width: 8px;
+      background-color: #f5f5f5;
+    }
+
+    .news::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 5px;
+    }
+
+    .news h2 {
+      color: #333;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .news-container {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .news-card {
+      flex: 0 0 300px;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-right: 20px;
+    }
+
+    .news-card:last-child {
+      margin-right: 0;
+    }
+
+    .news-card .title {
+      color: #333;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .news-card .source {
+      color: #777;
+      font-size: 14px;
+    }
+
+    .news-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Gaming News</h1>
+
+    <div class="article">
+      <h2>The Rise of Esports</h2>
+      <p>Esports, or electronic sports, is a form of competitive video gaming that has seen tremendous growth in recent years. With millions of viewers and lucrative prize pools, esports has become a global phenomenon.</p>
+      <p>Top esports titles include games like Dota 2, League of Legends, Counter-Strike: Global Offensive, and Fortnite. These games have spawned professional leagues and tournaments that attract players from all around the world.</p>
+      <p>Esports athletes, often called pro gamers, dedicate countless hours to honing their skills and competing at the highest level. They are celebrities in their own right, with sponsorships, fan bases, and the opportunity to earn a living through gaming.</p>
+      <p class="author">By John Doe</p>
+    </div>
+
+    <div class="news">
+      <h2>Latest Gaming News</h2>
+
+      <div class="news-container">
+        <div class="news-card">
+          <img src="./img/king.png" alt="Game Image">
+          <h3 class="title">New Game Release: "Cyberverse"</h3>
+          <p class="source">Source: GameSpot</p>
+        </div>
+
+        <div class="news-card">
+          <img src="./img/hero.png" alt="Game Image">
+          <h3 class="title">Upcoming Esports Tournament: "The International 2023"</h3>
+          <p class="source">Source: ESPN</p>
+        </div>
+
+        <div class="news-card">
+          <img src="./img/bedwars.png" alt="Game Image">
+          <h3 class="title">Game Developer Conference 2023 Announced</h3>
+          <p class="source">Source: Gamasutra</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
